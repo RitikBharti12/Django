@@ -1,0 +1,295 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Design</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">StreamCave</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <a href="">
+                        <li class="menu-list-item active">Home</li>
+                    </a>
+                    <a href="#movies">
+                        <li class="menu-list-item">Movies</li>
+                    </a>
+                    <a href="#new-release">
+                        <li class="menu-list-item">New</li>
+                    </a>
+                    <a href="">
+                        <li class="menu-list-item">Popular</li>
+                    </a>
+                    <a href="">
+                        <li class="menu-list-item">Trends</li>
+                    </a>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="img/profile.jpg" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <a href="#00"><i class="left-menu-icon fas fa-search"></i></a>
+        <a href=""><i class="left-menu-icon fas fa-home"></i></a>
+        <a href=""><i class="left-menu-icon fas fa-users"></i></a>
+        <a href=""><i class="left-menu-icon fas fa-bookmark"></i></a>
+        <a href=""> <i class="left-menu-icon fas fa-tv"></i></a>
+        <a href=""><i class="left-menu-icon fas fa-hourglass-start"></i></a>
+        <a href=""><i class="left-menu-icon fas fa-shopping-cart"></i></a>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+                <img class="featured-title" src="img/f-t-1.png" alt="">
+                <p class="featured-desc">It follows a freed slave, Django, who teams up with a German bounty hunter to
+                    rescue his wife from a brutal plantation owner. Set in the pre-Civil War South, the film blends
+                    violence, dark humor, and sharp dialogue. Directed by Quentin Tarantino, it explores themes of
+                    vengeance, justice, and race..</p>
+                <button class="featured-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="movies">MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">In *Her* (2013), a man falls in love with an AI operating
+                                system, exploring themes of love, technology, and human connection. Set in a near-future
+                                world, the film delves into isolation and identity. Directed by Spike Jonze.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Star Wars</span>
+                            <p class="movie-list-item-desc">*Star Movies* features a curated selection of Hollywood
+                                blockbusters, including iconic franchises and premieres. It offers a diverse mix of
+                                action, drama, and comedy for movie lovers.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Storm</span>
+                            <p class="movie-list-item-desc">*Batman: The Animated Series* (1990s) follows the Dark
+                                Knight as he battles Gotham’s villains while grappling with his own moral code. A
+                                critically acclaimed, stylish cartoon known for its dark tone and complex storytelling.
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">1917</span>
+                            <p class="movie-list-item-desc">*1917* follows two soldiers on a perilous mission to deliver
+                                a message across enemy lines during World War I. Shot in real-time, it immerses viewers
+                                in the tension of battle.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-desc">*The Avengers* (2012) unites Earth’s mightiest heroes to
+                                stop Loki and his alien army from conquering the planet. A high-octane, action-packed
+                                film that kickstarted the Marvel Cinematic Universe.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">Godzilla</span>
+                            <p class="movie-list-item-desc">
+                                *Godzilla* (2014) follows a team fighting to stop a giant monster unleashed by human
+                                activity. Packed with action and stunning visuals, it reintroduces the iconic creature.
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="new-release">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/8.jpg" alt="">
+                            <span class="movie-list-item-title">Oblivion</span>
+                            <p class="movie-list-item-desc">
+                                *Oblivion* (2013) follows a lone drone repairman on a post-apocalyptic Earth as he
+                                uncovers shocking truths about his mission and humanity’s past. A visually stunning
+                                sci-fi thriller filled with twists and mystery.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/9.jpg" alt="">
+                            <span class="movie-list-item-title">Hobbits</span>
+                            <p class="movie-list-item-desc">
+                                *The Hobbit* trilogy follows Bilbo Baggins' adventure with dwarves to reclaim their
+                                homeland from a dragon. A prequel to *The Lord of the Rings*, filled with epic battles
+                                and magical quests.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/10.jpg" alt="">
+                            <span class="movie-list-item-title">Due Date</span>
+                            <p class="movie-list-item-desc">
+                                *Due Date* (2010) follows a father-to-be on a chaotic road trip with an eccentric
+                                companion. A comedy of mishaps and unlikely friendship.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/11.jpg" alt="">
+                            <span class="movie-list-item-title">Kick Ass 2</span>
+                            <p class="movie-list-item-desc">
+                                *Kick-Ass 2* (2013) follows the return of masked vigilantes as they face a new villain.
+                                Action-packed, violent, and full of dark humor.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12.jpg" alt="">
+                            <span class="movie-list-item-title">The Emoji movie</span>
+                            <p class="movie-list-item-desc">
+                                The Emoji Movie (2017) follows Gene, an emoji who embarks on a journey to become
+                                "normal." A colorful, animated adventure inside a smartphone world.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
+                <img class="featured-title" src="img/f-t-2.png" alt="">
+                <p class="featured-desc">*Dark* (2017-2020) is a German sci-fi thriller where time travel unravels
+                    secrets across generations in a small town. A complex, mind-bending series about fate, family, and
+                    interconnected mysteries.</p>
+                <button class="featured-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">CURRENT WATCHING</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">In *Her* (2013), a man falls in love with an AI operating
+                                system, exploring themes of love, technology, and human connection. Set in a near-future
+                                world, the film delves into isolation and identity. Directed by Spike Jonze.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Starwars</span>
+                            <p class="movie-list-item-desc">*Star Movies* features a curated selection of Hollywood
+                                blockbusters, including iconic franchises and premieres. It offers a diverse mix of
+                                action, drama, and comedy for movie lovers.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/15.jpg" alt="">
+                            <span class="movie-list-item-title">Batman Cartoon</span>
+                            <p class="movie-list-item-desc">*Batman: The Animated Series* (1990s) follows the Dark
+                                Knight as he battles Gotham’s villains while grappling with his own moral code. A
+                                critically acclaimed, stylish cartoon known for its dark tone and complex storytelling.
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Storm</span>
+                            <p class="movie-list-item-desc">*Batman: The Animated Series* (1990s) follows the Dark
+                                Knight as he battles Gotham’s villains while grappling with his own moral code. A
+                                critically acclaimed, stylish cartoon known for its dark tone and complex storytelling.
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">1917</span>
+                            <p class="movie-list-item-desc">*1917* follows two soldiers on a perilous mission to deliver
+                                a message across enemy lines during World War I. Shot in real-time, it immerses viewers
+                                in the tension of battle.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-desc">*The Avengers* (2012) unites Earth’s mightiest heroes to
+                                stop Loki and his alien army from conquering the planet. A high-octane, action-packed
+                                film that kickstarted the Marvel Cinematic Universe.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">TRENDING</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/17.jpg" alt="">
+                            <span class="movie-list-item-title">Aquaman</span>
+                            <p class="movie-list-item-desc">*Aquaman* (2018) follows Arthur Curry, the half-human,
+                                half-Atlantean hero, as he battles to claim his birthright and save the underwater
+                                kingdom. A visually stunning action-adventure filled with underwater battles and epic
+                                stakes.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/18.jpg" alt="">
+                            <span class="movie-list-item-title">FairyTail</span>
+                            <p class="movie-list-item-desc">*Fairy Tail* (2009-2019) follows the adventures of powerful
+                                wizards, including Natsu Dragneel, as they embark on quests and protect their guild. A
+                                high-energy anime filled with magic, battles, and friendship.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/19.jpg" alt="">
+                            <span class="movie-list-item-title">Spiderman</span>
+                            <p class="movie-list-item-desc">*Spider-Man* (2002) follows Peter Parker, a high school
+                                student who gains spider-like powers and becomes the masked hero of New York. A
+                                thrilling blend of action, responsibility, and personal struggles.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+
+
+
+
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
